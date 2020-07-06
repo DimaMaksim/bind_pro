@@ -1,0 +1,29 @@
+DEV:
+  rabbit:
+    queue_in: queue_in
+    host: s-kv-center-z22.officekiev.fozzy.lan
+    port: 5672
+    vhost: aOSimulation
+    user: jAOSimulationClient
+    pwd: '1123581321'
+  sql:
+    listfilials:
+      server: s-kv-center-s27.officekiev.fozzy.lan
+      db: InventorySimul
+      table: ListFilials
+      schema: AO
+
+PROD:
+  rabbit:
+    queue_in: queue_in
+    host: s-kv-center-z22.officekiev.fozzy.lan
+    port: 5672
+    vhost: aOSimulation
+    user: jAOSimulationClient
+    pwd: '1123581321'
+  sql:
+    listfilials:
+      server: s-kv-center-s27.officekiev.fozzy.lan
+      db: InventorySimul
+      table: ListFilials
+      schema: AO

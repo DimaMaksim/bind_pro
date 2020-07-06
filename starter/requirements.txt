@@ -1,0 +1,9 @@
+pika
+numpy
+pandas
+pyodbc
+pyyaml
+schedule
+
+
+
